@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/snake/snake",
+    "pages/order/order",
+    "pages/canvas/canvas",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#243D73",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": 
+    [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+        
+      },
+      {
+        "pagePath": "pages/snake/snake",
+        "text": "贪吃蛇"
+        
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
